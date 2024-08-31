@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eamil-Validator</title>
+    <link rel="icon" href="./fav icon.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="svg" src="./email svg.png" alt="svg">
+                <hr>
+                <span id="logo-text">Email-Validator Form</span>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About </a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <form action="/submit" method="post">
+                <!-- Text input for username -->
+                <label id="username" for="username">Enter Your Email to Validate:</label>
+                <input type="text" placeholder="Enter your Email " id="username" name="username" required>
+                <!-- Submit button -->
+                <input id="submitBtn" class="btn" type="submit" value="Submit">
+            </form>
+
+
+        </div>
+        <hr id="hr">
+        <div class="container-2">
+            <h2>Your result</h2><br>
+            <div id="resultCont">
+                Your result will show here
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Copyrights Eamil-Validator | All rights reserved
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 60px;
+    color: black;
+    /* height: 10%; */
+
+}
+
+.svg {
+    width: 30px;
+    padding-left: 85px;
+    margin: 0px 0px -3px 0px;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+.logo.text {
+    margin-bottom: 1px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 2px 8px;
+    border-radius: 5px;
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(78, 157, 225);
+    transition: 0.2s;
+    font-weight: 500;
+    color: white;
+}
+
+main {
+    min-height: 100vh;
+    /* background-color: black; */
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    /* height: 50%; */
+    margin: 50px 110px 20px 110px;
+    max-width: 80vw;
+    padding: 100px;
+    border-radius: 1000px;
+}
+
+.container h1 {
+    padding: 12px 0px;
+}
+
+.btn {
+    background-color: azure;
+    color: black;
+    padding: 12px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    font-weight: 549.5;
+    cursor: pointer;
+    /* transition: 0.5s; */
+}
+
+footer {
+    display: flex;
+    height: 40px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 06px;
+    font-size: 12px;
+}
+
+.container-2 {
+    color: black;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0px 40px 0px 40px;
+    text-align: center;
+}
+
+.container-2 div::first-letter{
+    letter-spacing: normal; 
+    text-transform: uppercase;
+
+}
+
+
+#hr {
+    height: 1px;
+    margin: 40px;
+    background-color: black;
+}
+
+#username {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        font-size: 10px;
+    }
+
+    .logo {
+        font-size: 15px;
+        font-weight: bold;
+        /* padding: 10px 0px; */
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        /* align-items:right; */
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+}

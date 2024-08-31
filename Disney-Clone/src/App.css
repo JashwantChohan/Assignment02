@@ -1,0 +1,11 @@
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #00122a; /* Adjust as needed */
+  
+} 
+
+/* Add more styles as needed */
